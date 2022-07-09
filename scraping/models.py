@@ -2,7 +2,7 @@ from django.db import models
 from .utils import make_slug
 from jsonfield import JSONField
 def default_urls():
-    return {'work':'',"staff":'','dou':''}
+    return {"staff":'',}
 
 
 class City(models.Model):
