@@ -1,0 +1,14 @@
+{% extends 'scraping/base.html' %}
+{% block title %}Register{% endblock %}
+{% block content %}
+
+    <div class="row ">
+        <div class="col-md-8 mx-auto">
+           <h4 class="my-2" style="color: limegreen">Congratulations </h4>
+            <h5>Your registration has been successful {{ new_user.email }}</h5>
+            <p>Now you can <a style="text-decoration:none" href="{% url 'login' %} ">Sign in</a> to your profile</p>
+        </div>
+    </div>
+
+
+{% endblock %}
