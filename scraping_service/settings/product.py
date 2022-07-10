@@ -20,8 +20,8 @@ DB_PASSWORD=os.getenv('DB_PASSWORD')
 DB_HOST=os.getenv("DB_HOST")
 DB_NAME=os.getenv('DB_NAME')
 SECRET_KEY = os.getenv('SECRET_KEY')
-EMAIL_HOST = os.getenv('EMAIL_HOST')
-EMAIL_PORT = os.getenv('EMAIL_PORT')
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
